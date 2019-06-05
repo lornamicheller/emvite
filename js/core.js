@@ -23,8 +23,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 var root = typeof exports === 'undefined' ? window : exports;
 var config = {
 	// An option to choose a suffix for 2x images
-	retina2ImageSuffix: '@2x',
-	retina3ImageSuffix: '@3x',
+	retina2ImageSuffix: '',
+	retina3ImageSuffix: '',
 
 	// Ensure Content-Type is an image before trying to load @2x image
 	// https://github.com/imulus/retinajs/pull/45)
