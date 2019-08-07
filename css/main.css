@@ -5239,7 +5239,7 @@ h6 .widget-newsletter span {
 .widget-newsletter button[type=submit]:after {
   content: none;
   border: 0 !important;
-  border: 0 !important/9;
+  border: 0 !important;
   border-radius: 0;
 }
 
@@ -12639,4 +12639,15 @@ h6 .cospo-comment-content span {
 /* line 593, ../sass/cospo/_blog.scss */
 .log-in-form input {
   font-size: 1.143rem;
+}
+
+.app-btn {
+  border: 2px solid rgb(206, 175, 0) !important;
+  border-radius: 25px;
+  font-size: 15px;
+  color: rgb(206, 175, 0) !important;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 10px;
 }
